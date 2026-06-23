@@ -135,7 +135,9 @@ en Git y publicado en GitHub."
 **MANUEL DICE:**
 ```
 "Ahora vamos a ver la interfaz de usuario. Nuestro frontend es una 
-aplicación de una sola página desarrollada en React."
+aplicación de una sola página desarrollada en React. Verán un centro 
+de operaciones clínicas completamente funcional, con encabezado profesional,
+métricas en tiempo real, y módulos intuitivos para gestión de pacientes y citas."
 ```
 
 **PANTALLA MUESTRA:**
@@ -151,123 +153,148 @@ aplicación de una sola página desarrollada en React."
 
 ---
 
-### ⏱️ 2:45 - 3:30 (UI Pacientes - Lectura)
+### ⏱️ 2:45 - 3:15 (Encabezado y Tarjetas KPI)
 **MANUEL DICE:**
 ```
-"La pantalla está dividida en dos columnas. La izquierda es para pacientes 
-y la derecha para citas. Aquí vemos una lista de pacientes con información 
-como ID, nombre, email y teléfono. Cada fila tiene botones para editar 
-o eliminar el registro. Arriba hay un buscador en tiempo real que filtra 
-los resultados mientras escribes."
+"En la parte superior, vemos el encabezado 'Centro de Operaciones Clínicas' 
+con una descripción clara del propósito. Debajo, un panel de métricas en tiempo real:
+total de pacientes activos, citas registradas, citas vinculadas, y última sincronización.
+Esto da una visión operativa instantánea del estado del sistema."
 ```
 
 **PANTALLA MUESTRA:**
-- Mostrar tabla de Pacientes llena (scroll si es necesario)
-- Mostrar columnas: ID, Nombre, Email, Teléfono, Botones
+- Mostrar encabezado con gradiente y badge de 'Servicios conectados'
+- Mostrar cuatro tarjetas KPI/métricas con números e indicadores
 
 **INSTRUCCIONES PARA MARCELO:**
-1. Navegar a http://localhost:5173 en navegador
-2. Esperar carga de datos
-3. Maximizar ventana del navegador
-4. Scroll horizontal si es necesario para ver todas las columnas
-5. NO hacer clic aún
+1. Esperar a que la página cargue completamente
+2. Maximizar ventana del navegador (1920x1080 ideal)
+3. Mostrar encabezado 5 segundos
+4. Scroll lento hacia las tarjetas KPI
+5. Mantener visible 15 segundos
+6. Señalar cada tarjeta con mouse
 
 ---
 
-### ⏱️ 3:30 - 4:00 (Crear Paciente)
+### ⏱️ 3:15 - 3:50 (Módulo Pacientes - Estructura)
 **MANUEL DICE:**
 ```
-"Para crear un nuevo paciente, hacemos clic en el botón 'Nuevo Paciente'. 
-Esto abre un modal con un formulario donde ingresamos el nombre, email, 
-teléfono y síntomas iniciales. Luego hacemos clic en 'Guardar' para 
-persistir los datos en la base de datos."
+"El panel se divide en dos módulos. El de Pacientes a la izquierda tiene
+formulario simple: nombre y RUT. Buscador en tiempo real que filtra al escribir.
+Y lista de pacientes bien formateada con botones de edición y eliminación.
+Todo responsivo y limpio."
 ```
 
 **PANTALLA MUESTRA:**
-- Botón "Nuevo Paciente" → Click
-- Modal formulario se abre
-- Mostrar campos vacíos
+- Mostrar tarjeta "Pacientes" con sección-kicker y descripción
+- Mostrar formulario de entrada (2 campos + botón Crear)
+- Mostrar buscador
+- Mostrar lista de pacientes
 
 **INSTRUCCIONES PARA MARCELO:**
-1. Buscar en pantalla botón "Nuevo Paciente" (probablemente arriba de la tabla)
-2. Hacer clic
-3. Esperar a que modal se cargue
-4. NO completar formulario aún (solo mostrar la estructura)
-5. Screenshot mental: modal con campos vacíos
+1. Scroll hacia la sección de Pacientes
+2. Mostrar el heading: "Modulo asistencial - Pacientes"
+3. Mostrar formulario 5 segundos
+4. Mostrar buscador
+5. Mostrar 3-4 filas de pacientes
 
 ---
 
-### ⏱️ 4:00 - 4:30 (Editar & Eliminar)
+### ⏱️ 3:50 - 4:15 (Crear Paciente)
 **MANUEL DICE:**
 ```
-"Si hacemos clic en el botón editar de un paciente existente, se abre 
-el mismo modal pero con los datos precargados. Podemos modificar cualquier 
-campo y guardar los cambios. El botón eliminar simplemente borra el registro 
-tras una confirmación."
+"Para crear un paciente, ingresamos nombre y RUT en los campos,
+luego 'Crear'. Formula simple e intuitiva. Toast verde confirma.
+La lista se actualiza automáticamente. Datos persistidos en tiempo real."
 ```
 
 **PANTALLA MUESTRA:**
-- Cerrar modal (ESC o botón Cancelar)
-- Hacer clic en botón Editar de un paciente existente
-- Mostrar modal con datos precargados
+- Hacer clic en campo de Nombre
+- Ingresar: "Juan Perez"
+- Ingresar RUT: "12345678-9"
+- Hacer clic en botón Crear
+- Esperar toast verde
 
 **INSTRUCCIONES PARA MARCELO:**
-1. Si modal está abierto, presionar ESC para cerrar
-2. En tabla de pacientes, encontrar un botón "Editar" o ícono de lápiz
-3. Hacer clic
-4. Esperar modal con datos
-5. Mostrar durante 10 segundos
-6. NO guardar cambios
+1. Hacer clic en campo de Nombre
+2. Tipear: "Juan Perez"
+3. Hacer clic en campo de RUT
+4. Tipear: "12345678-9"
+5. Hacer clic en botón Crear
+6. Esperar 2 segundos a toast verde
+7. Mostrar notificación 3 segundos
 
 ---
 
-### ⏱️ 4:30 - 5:15 (Vista Citas)
+### ⏱️ 4:15 - 4:40 (Módulo Citas)
 **MANUEL DICE:**
 ```
-"En la columna derecha tenemos la gestión de citas. Funciona de forma similar 
-a los pacientes. Vemos una lista de citas con fecha, hora, especialidad, 
-estado y botones de acción. El buscador también filtra citas en tiempo real."
+"En el lado derecho, el módulo de Agenda con formulario de fecha,
+especialidad y selección de paciente. Buscador también filtra en tiempo real.
+Lista muestra especialidad, fecha y opciones de edición y eliminación.
+Todo sincronizado entre módulos."
 ```
 
 **PANTALLA MUESTRA:**
-- Cerrar modal si está abierto
-- Scroll derecho o cambiar vista a mostrar tabla de Citas
-- Mostrar columnas de Citas
+- Mostrar tarjeta Citas con sección-kicker
+- Mostrar formulario entrada (date, especialidad, dropdown)
+- Mostrar buscador
+- Mostrar lista de citas
 
 **INSTRUCCIONES PARA MARCELO:**
-1. Presionar ESC si modal está visible
-2. Buscar tabla de Citas (probablemente a la derecha)
-3. Si no es visible, scroll horizontal o hacer zoom out
-4. Mostrar tabla con múltiples citas
-5. Asegurar que se ven: Fecha, Hora, Especialidad, Estado
+1. Scroll para mostrar tarjeta Citas
+2. Mostrar formulario
+3. Mostrar buscador
+4. Mostrar 3-4 filas de citas
 
 ---
 
-### ⏱️ 5:15 - 5:30 (Notificaciones & UX)
+### ⏱️ 4:40 - 5:15 (Búsqueda y Barra de Estado)
 **MANUEL DICE:**
 ```
-"La interfaz también tiene notificaciones visuales. Cuando guardamos 
-una operación exitosa, vemos un toast verde confirmando la acción. 
-Si hay un error, mostramos un toast rojo con el mensaje. Esto da 
-una experiencia de usuario clara y responsiva."
+"La búsqueda es responsiva. Mientras escribo, los resultados se filtran
+instantáneamente. Al fondo, la barra de estado muestra 'Panel operativo'
+y el botón Refrescar. Los toasts confirman cada acción: verde para éxito,
+rojo para errores. Experiencia clara y profesional."
 ```
 
 **PANTALLA MUESTRA:**
-- Hacer clic en "Nuevo Paciente" nuevamente
-- Llenar formulario rápidamente
-- Hacer clic en "Guardar"
-- Esperar toast de confirmación verde
+- Hacer clic en buscador de Pacientes
+- Tipear para filtrar
+- Mostrar resultados en tiempo real
+- Scroll a barra de estado
+- Mostrar live-chip verde y botón Refrescar
 
 **INSTRUCCIONES PARA MARCELO:**
-1. Hacer clic en "Nuevo Paciente"
-2. Completar campos RÁPIDO (nombres aleatorios):
-   - Nombre: "Test Patient"
-   - Email: "test@example.com"
-   - Teléfono: "+1234567890"
-   - Síntomas: "Tos"
-3. Hacer clic en "Guardar"
-4. Esperar y mostrar notificación verde (2-3 segundos)
-5. Si no aparece, está OK - continuar
+1. Scroll a Pacientes
+2. Hacer clic en buscador
+3. Tipear: "Juan"
+4. Mostrar filtrado al instante (3 segundos)
+5. Limpiar buscador
+6. Scroll a barra de estado
+7. Mostrar indicador verde y botón (5 segundos)
+
+---
+
+### ⏱️ 5:15 - 5:30 (Resumen Frontend)
+**MANUEL DICE:**
+```
+"En resumen, frontend profesional: encabezados contextuales, métricas
+en tiempo real, módulos sincronizados, búsqueda instantánea, feedback visual.
+Optimizado para responsividad. Listo para producción. Demuestra arquitectura
+moderna y buenas prácticas UX."
+```
+
+**PANTALLA MUESTRA:**
+- Vista completa: encabezado, métricas, dos módulos
+- Zoom out si es necesario
+- Mostrar paleta de colores coherente
+
+**INSTRUCCIONES PARA MARCELO:**
+1. Scroll hacia arriba
+2. Zoom out un poco (Ctrl+Scroll)
+3. Mostrar vista completa 15 segundos
+4. Prepararse para Postman
 
 ---
 
