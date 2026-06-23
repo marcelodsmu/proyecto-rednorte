@@ -1,0 +1,17 @@
+Repositorio principal: https://github.com/marcelodsmu/proyecto-rednorte.git
+Descripcion: Documentacion general, scripts de automatizacion y entregables (configurado localmente, pendiente publicacion remota).
+
+Repositorio frontend: https://github.com/marcelodsmu/rednorte-frontend.git
+Descripcion: Componente frontend React/Vite con CRUD de pacientes y citas.
+
+Repositorio microservicio pacientes: https://github.com/marcelodsmu/rednorte-ms-pacientes.git
+Descripcion: API REST de pacientes con JPA y pruebas unitarias.
+
+Repositorio microservicio citas: https://github.com/marcelodsmu/rednorte-ms-citas.git
+Descripcion: API REST de citas con JPA y pruebas unitarias.
+
+Repositorio BFF: https://github.com/marcelodsmu/rednorte-bff.git
+Descripcion: Gateway BFF que integra frontend con microservicios.
+
+Repositorio eureka: https://github.com/marcelodsmu/rednorte-eureka.git
+Descripcion: Service registry para descubrimiento de servicios (configurado localmente, pendiente publicacion remota).

@@ -1,0 +1,47 @@
+DESCRIPCION DE PERSISTENCIA DE DATOS - REDNORTE
+
+1) ENFOQUE
+El sistema utiliza persistencia relacional mediante Spring Data JPA en los microservicios:
+- ms-pacientes
+- ms-citas
+
+2) TECNOLOGIAS
+- Spring Boot + Spring Data JPA
+- Hibernate ORM
+- H2 para entorno de desarrollo/pruebas
+- PostgreSQL como dependencia runtime para entorno productivo
+
+3) MODELO DE DATOS
+3.1 Paciente
+- id (Long, autogenerado)
+- nombre (String)
+- rut (String)
+
+3.2 Cita
+- id (Long, autogenerado)
+- fecha (String/Date segun implementacion)
+- especialidad (String)
+- idPaciente (Long, referencia logica al paciente)
+
+4) CAPA DE ACCESO A DATOS
+Cada microservicio implementa un Repository Spring Data JPA:
+- PacienteRepository
+- CitaRepository
+
+Estos repositorios encapsulan operaciones CRUD:
+- findAll
+- findById
+- save
+- deleteById
+
+5) FLUJO DE PERSISTENCIA
+Frontend -> BFF -> Microservicio -> Service -> Repository (JPA) -> Base de datos
+
+6) GARANTIA DE CONSISTENCIA
+- Las operaciones se ejecutan dentro del ciclo transaccional provisto por Spring Data JPA.
+- Se utiliza clave primaria autogenerada para identidad de entidades.
+- El BFF no persiste datos; solo enruta y centraliza la API para frontend.
+
+7) OBSERVACIONES
+- En desarrollo local se usa H2 en memoria para rapidez y pruebas.
+- Para entrega productiva se puede apuntar a PostgreSQL manteniendo la misma capa JPA.

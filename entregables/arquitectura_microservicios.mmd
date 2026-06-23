@@ -1,0 +1,9 @@
+flowchart LR
+    FE[Frontend React Vite\nPuerto 5173] -->|/api| BFF[BFF Spring Boot\nPuerto 8080]
+    BFF -->|REST /api/pacientes| MSP[ms-pacientes\nPuerto 8081]
+    BFF -->|REST /api/citas| MSC[ms-citas\nPuerto 8082]
+    MSP -->|JPA| DBP[(H2/PostgreSQL\nPacientes)]
+    MSC -->|JPA| DBC[(H2/PostgreSQL\nCitas)]
+    EUR[Eureka\nPuerto 8761] -. Discovery .- BFF
+    EUR -. Discovery .- MSP
+    EUR -. Discovery .- MSC

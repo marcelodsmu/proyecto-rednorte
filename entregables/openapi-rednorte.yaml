@@ -1,0 +1,128 @@
+openapi: 3.0.3
+info:
+  title: RedNorte BFF API
+  version: 1.0.0
+  description: Especificacion de endpoints del BFF para pacientes y citas.
+servers:
+  - url: http://localhost:8080
+paths:
+  /api/pacientes:
+    get:
+      summary: Lista pacientes
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Crea paciente
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Paciente'
+      responses:
+        '200':
+          description: OK
+  /api/pacientes/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+          format: int64
+    get:
+      summary: Obtiene paciente por id
+      responses:
+        '200':
+          description: OK
+    put:
+      summary: Actualiza paciente
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Paciente'
+      responses:
+        '200':
+          description: OK
+    delete:
+      summary: Elimina paciente
+      responses:
+        '200':
+          description: OK
+  /api/citas:
+    get:
+      summary: Lista citas
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Crea cita
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Cita'
+      responses:
+        '200':
+          description: OK
+  /api/citas/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+          format: int64
+    get:
+      summary: Obtiene cita por id
+      responses:
+        '200':
+          description: OK
+    put:
+      summary: Actualiza cita
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Cita'
+      responses:
+        '200':
+          description: OK
+    delete:
+      summary: Elimina cita
+      responses:
+        '200':
+          description: OK
+components:
+  schemas:
+    Paciente:
+      type: object
+      required: [nombre, rut]
+      properties:
+        id:
+          type: integer
+          format: int64
+        nombre:
+          type: string
+        rut:
+          type: string
+    Cita:
+      type: object
+      required: [fecha, especialidad, idPaciente]
+      properties:
+        id:
+          type: integer
+          format: int64
+        fecha:
+          type: string
+          format: date
+        especialidad:
+          type: string
+        idPaciente:
+          type: integer
+          format: int64

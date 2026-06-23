@@ -1,0 +1,41 @@
+INFORME DE PRUEBAS UNITARIAS Y COBERTURA - REDNORTE
+Fecha: 2026-06-22
+
+1) OBJETIVO
+Validar pruebas unitarias y cobertura para componentes backend del sistema de microservicios.
+
+2) COMPONENTES EVALUADOS
+- rednorte-ms-pacientes
+- rednorte-ms-citas
+- rednorte-bff
+
+3) EJECUCION
+Comandos utilizados:
+- .\mvnw.cmd -q clean verify
+
+4) HERRAMIENTA DE COBERTURA
+- JaCoCo Maven Plugin 0.8.12
+
+5) RESULTADOS DE COBERTURA (INSTRUCCIONES)
+- ms-pacientes: 94.20% (covered=130, missed=8)
+- ms-citas: 94.63% (covered=141, missed=8)
+- bff: 63.27% (covered=124, missed=72)
+
+6) EVIDENCIA DE REPORTES
+- rednorte-ms-pacientes/target/site/jacoco/index.html
+- rednorte-ms-citas/target/site/jacoco/index.html
+- rednorte-bff/target/site/jacoco/index.html
+
+7) VALIDACION CONTRA PAUTA
+La pauta exige cobertura minima de 60% en componentes evaluados.
+Resultado: CUMPLE en los tres componentes backend evaluados.
+
+8) PRUEBAS RELEVANTES
+- PacienteServiceTest
+- PacienteControllerTest
+- CitaServiceTest
+- CitaControllerTest
+- GatewayControllerTest (agregado para elevar cobertura del BFF)
+
+9) CONCLUSION
+Los componentes backend cumplen el criterio de cobertura minima exigido por la pauta para pruebas unitarias.

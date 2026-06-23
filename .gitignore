@@ -1,0 +1,31 @@
+# IDE
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+package-lock.json
+
+# Build scripts
+*.ps1
+*.bat
+
+# Inspection outputs
+inspect_output.txt
+
+# Submodules (each has its own repo)
+rednorte-bff/
+rednorte-eureka/
+rednorte-frontend/
+rednorte-ms-citas/
+rednorte-ms-pacientes/
+
+# Build folders
+target/
+dist/
