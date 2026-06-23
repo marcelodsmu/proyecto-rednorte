@@ -1,31 +1,56 @@
-# IDE
+# IDE and Editors
 .vscode/
+.idea/
 *.code-workspace
+*.swp
+*.swo
 
-# Python
-__pycache__/
-*.py
-*.pyc
-*.pyo
-
-# Node
+# Dependencies
 node_modules/
 package-lock.json
+/.pnp
+.pnp.js
 
-# Build scripts
-*.ps1
-*.bat
-
-# Inspection outputs
-inspect_output.txt
-
-# Submodules (each has its own repo)
-rednorte-bff/
-rednorte-eureka/
-rednorte-frontend/
-rednorte-ms-citas/
-rednorte-ms-pacientes/
-
-# Build folders
+# Build outputs
 target/
 dist/
+build/
+*.jar
+*.war
+
+# Maven
+.m2/
+*.log
+
+# Database
+*.db
+*.sqlite
+h2db.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (if any)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Inspection and temp files
+inspect_output.txt
+inspect_test_autoconfigure_output.txt
+*.tmp
+*.bak
+
+# ===== IMPORTANT: Entregables y Documentos de Presentación NO van a GitHub =====
+/entregables/
+entregables/**/*.md
+entregables/**/*.pdf
+entregables/**/*.pptx
+entregables/audio/
+
+# Otros archivos sensibles
+.env
+.env.local
+GIT_BRANCHING_STRATEGY.md
