@@ -54,3 +54,20 @@ entregables/audio/
 .env
 .env.local
 GIT_BRANCHING_STRATEGY.md
+
+# Repositorios anidados (workspace multirepo)
+/rednorte-bff/
+/rednorte-eureka/
+/rednorte-frontend/
+/rednorte-ms-citas/
+/rednorte-ms-pacientes/
+
+# Utilitarios temporales de inspeccion Spring Test/MockBean
+find_*mockbean*.py
+inspect_*spring*test*.py
+inspect_mock_classes.py
+inspect_test_autoconfigure.py
+search_*mockbean*.py
+search_spring_test_artifacts.py
+list_boot_test_entries.py
+probe_spring_test_jars.py
