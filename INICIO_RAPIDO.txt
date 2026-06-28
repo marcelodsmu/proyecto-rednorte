@@ -1,179 +1,180 @@
-╔════════════════════════════════════════════════════════════════════════════════╗
-║                   🏥 REDNORTE PLATFORM - ¡COMPLETAMENTE FUNCIONAL!              ║
-╚════════════════════════════════════════════════════════════════════════════════╝
+﻿â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+â•‘                   ðŸ¥ REDNORTE PLATFORM - Â¡COMPLETAMENTE FUNCIONAL!              â•‘
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
-✅ ESTADO: 100% LISTO PARA USAR
+âœ… ESTADO: 100% LISTO PARA USAR
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-🚀 INICIAR EN 3 FORMAS
+ðŸš€ INICIAR EN 3 FORMAS
 
-  1️⃣  DOBLE CLICK (Más fácil)
-      → START_REDNORTE.bat
+  1ï¸âƒ£  DOBLE CLICK (MÃ¡s fÃ¡cil)
+      â†’ START_REDNORTE.bat
 
-  2️⃣  POWERSHELL (Recomendado)
-      → .\start-complete.ps1
+  2ï¸âƒ£  POWERSHELL (Recomendado)
+      â†’ .\start-complete.ps1
 
-  3️⃣  VS CODE TASKS
-      → Ctrl+Shift+P → Run Task → RedNorte: Start Local
+  3ï¸âƒ£  VS CODE TASKS
+      â†’ Ctrl+Shift+P â†’ Run Task â†’ RedNorte: Start Local
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-✨ FUNCIONALIDADES IMPLEMENTADAS
+âœ¨ FUNCIONALIDADES IMPLEMENTADAS
 
   Pacientes
-  ├─ ✅ Crear paciente
-  ├─ ✅ Ver lista de pacientes
-  ├─ ✅ Editar paciente (modal elegante)
-  ├─ ✅ Eliminar paciente (con confirmación)
-  └─ ✅ Buscar por nombre o RUT
+  â”œâ”€ âœ… Crear paciente
+  â”œâ”€ âœ… Ver lista de pacientes
+  â”œâ”€ âœ… Editar paciente (modal elegante)
+  â”œâ”€ âœ… Eliminar paciente (con confirmaciÃ³n)
+  â””â”€ âœ… Buscar por nombre o RUT
 
-  Citas Médicas
-  ├─ ✅ Crear cita
-  ├─ ✅ Ver lista de citas
-  ├─ ✅ Editar cita (modal elegante)
-  ├─ ✅ Eliminar cita (con confirmación)
-  └─ ✅ Buscar por especialidad o fecha
+  Citas MÃdicas
+  â”œâ”€ âœ… Crear cita
+  â”œâ”€ âœ… Ver lista de citas
+  â”œâ”€ âœ… Editar cita (modal elegante)
+  â”œâ”€ âœ… Eliminar cita (con confirmaciÃ³n)
+  â””â”€ âœ… Buscar por especialidad o fecha
 
   Interfaz
-  ├─ ✅ Diseño profesional y moderno
-  ├─ ✅ Responsivo (desktop y móvil)
-  ├─ ✅ Notificaciones Toast (éxito/error)
-  ├─ ✅ Validaciones robustas
-  ├─ ✅ Loading states
-  └─ ✅ Tema sanitario (colores teal/cyan)
+  â”œâ”€ âœ… DiseÃ±o profesional y moderno
+  â”œâ”€ âœ… Responsivo (desktop y mÃ³vil)
+  â”œâ”€ âœ… Notificaciones Toast (Ãxito/error)
+  â”œâ”€ âœ… Validaciones robustas
+  â”œâ”€ âœ… Loading states
+  â””â”€ âœ… Tema sanitario (colores teal/cyan)
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-🔗 ACCESOS DESPUÉS DE INICIAR
+ðŸ”— ACCESOS DESPUÃ‰S DE INICIAR
 
-  🌐 Frontend (UI Principal)
-     → http://localhost:5173
+  ðŸŒ Frontend (UI Principal)
+     â†’ http://localhost:5173
 
-  📊 BFF Gateway (API)
-     → http://localhost:8080/api/pacientes
-     → http://localhost:8080/api/citas
+  ðŸ“Š BFF Gateway (API)
+     â†’ http://localhost:8080/api/pacientes
+     â†’ http://localhost:8080/api/citas
 
-  🔍 Service Discovery (Eureka)
-     → http://localhost:8761
+  ðŸ” Service Discovery (Eureka)
+     â†’ http://localhost:8761
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-📋 TIEMPO DE INICIO
+ðŸ“‹ TIEMPO DE INICIO
 
   Total: ~35-40 segundos
-  ├─ Eureka: ~15s
-  ├─ Servicios (3x): ~5s cada uno
-  ├─ Frontend: <1s
-  └─ Navegador abre automáticamente
+  â”œâ”€ Eureka: ~15s
+  â”œâ”€ Servicios (3x): ~5s cada uno
+  â”œâ”€ Frontend: <1s
+  â””â”€ Navegador abre automÃ¡ticamente
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-📚 DOCUMENTACIÓN
+ðŸ“š DOCUMENTACIÃ“N
 
   README_COMPLETO.md
-  └─ Instrucciones detalladas, solución de problemas, datos de prueba
+  â””â”€ Instrucciones detalladas, soluciÃ³n de problemas, datos de prueba
 
   IMPLEMENTACION_COMPLETA.md
-  └─ Arquitectura técnica, métricas, stack completo
+  â””â”€ Arquitectura tÃcnica, mÃtricas, stack completo
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-🛠️  STACK TECNOLÓGICO
+ðŸ› ï¸  STACK TECNOLÃ“GICO
 
   Backend
-  ├─ Java 17+
-  ├─ Spring Boot 4.0.7
-  ├─ Spring Data JPA
-  ├─ H2 Database (en memoria)
-  └─ Eureka Service Discovery
+  â”œâ”€ Java 17+
+  â”œâ”€ Spring Boot 4.0.7
+  â”œâ”€ Spring Data JPA
+  â”œâ”€ H2 Database (en memoria)
+  â””â”€ Eureka Service Discovery
 
   Frontend
-  ├─ React 19.2.6
-  ├─ Vite 8.0.14
-  ├─ CSS3 Responsive
-  └─ Fetch API (sin librerías externas)
+  â”œâ”€ React 19.2.6
+  â”œâ”€ Vite 8.0.14
+  â”œâ”€ CSS3 Responsive
+  â””â”€ Fetch API (sin librerÃ­as externas)
 
-  Automatización
-  ├─ PowerShell 5.1
-  ├─ Maven (build backend)
-  └─ npm (build frontend)
+  AutomatizaciÃ³n
+  â”œâ”€ PowerShell 5.1
+  â”œâ”€ Maven (build backend)
+  â””â”€ npm (build frontend)
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-⚡ OPERACIONES MÁS RÁPIDAS
+âš¡ OPERACIONES MÃS RÃPIDAS
 
   Crear Paciente:
     1. Escribe nombre
     2. Escribe RUT
-    3. Click ➕ Crear
-    → Aparece en la lista en <100ms
+    3. Click âž• Crear
+    â†’ Aparece en la lista en <100ms
 
   Buscar Paciente:
-    1. Click en 🔍 Buscar
+    1. Click en ðŸ” Buscar
     2. Escribe nombre
-    → La lista se filtra instantáneamente
+    â†’ La lista se filtra instantÃ¡neamente
 
   Editar Cita:
-    1. Click ✏️ en la cita
+    1. Click âœï¸ en la cita
     2. Edita los campos
     3. Click Guardar
-    → Modal se cierra, lista actualiza
+    â†’ Modal se cierra, lista actualiza
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-🎯 TESTING RÁPIDO
+ðŸŽ¯ TESTING RÃPIDO
 
   Crear 2 pacientes:
-    ├─ Juan Pérez García | RUT: 12345678-K
-    └─ María López Ruiz  | RUT: 87654321-J
+    â”œâ”€ Juan PÃrez GarcÃ­a | RUT: 12345678-K
+    â””â”€ MarÃ­a LÃ³pez Ruiz  | RUT: 87654321-J
 
   Crear 2 citas:
-    ├─ 2025-12-25 | Cardiología | Juan
-    └─ 2025-11-15 | Dermatología | María
+    â”œâ”€ 2025-12-25 | CardiologÃ­a | Juan
+    â””â”€ 2025-11-15 | DermatologÃ­a | MarÃ­a
 
   Buscar:
-    ├─ "juan" → solo aparece Juan
-    └─ "2025-12" → solo aparece cita de Cardiología
+    â”œâ”€ "juan" â†’ solo aparece Juan
+    â””â”€ "2025-12" â†’ solo aparece cita de CardiologÃ­a
 
   Editar:
-    ├─ Click ✏️ en Juan
-    ├─ Cambia nombre a "Juan Pablo"
-    ├─ Click Guardar
-    └─ Lista actualiza automáticamente
+    â”œâ”€ Click âœï¸ en Juan
+    â”œâ”€ Cambia nombre a "Juan Pablo"
+    â”œâ”€ Click Guardar
+    â””â”€ Lista actualiza automÃ¡ticamente
 
   Eliminar:
-    ├─ Click 🗑️ en María
-    ├─ Confirma
-    └─ Desaparece de la lista
+    â”œâ”€ Click ðŸ—‘ï¸ en MarÃ­a
+    â”œâ”€ Confirma
+    â””â”€ Desaparece de la lista
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-❓ ¿PROBLEMAS?
+â“ Â¿PROBLEMAS?
 
   Puerto en uso
-  → Cierra el servicio anterior o usa otro puerto
+  â†’ Cierra el servicio anterior o usa otro puerto
 
   Servicios lentos
-  → Espera 30 segundos más (primer inicio es más lento)
+  â†’ Espera 30 segundos mÃ¡s (primer inicio es mÃ¡s lento)
 
   Frontend no carga
-  → Abre DevTools (F12) y revisa consola
+  â†’ Abre DevTools (F12) y revisa consola
 
   API retorna error
-  → Verifica http://localhost:8080/api/pacientes
+  â†’ Verifica http://localhost:8080/api/pacientes
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-🎉 ¡TODO LISTO!
+ðŸŽ‰ Â¡TODO LISTO!
 
-  Tu plataforma RedNorte está 100% funcional.
+  Tu plataforma RedNorte estÃ¡ 100% funcional.
   
   Datos de prueba se pueden crear directamente en la interfaz.
   
   Para parar: Presiona CTRL+C en cualquier ventana PowerShell
   o cierra las ventanas.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-Creado con ❤️  | RedNorte Healthcare Platform
+Creado con â¤ï¸  | RedNorte Healthcare Platform
+

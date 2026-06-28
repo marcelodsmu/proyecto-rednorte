@@ -30,10 +30,10 @@ Equipo: RedNorte
 | API REST | Cumple | entregables/openapi-rednorte.yaml, entregables/api-rednorte.postman_collection.json |
 | Persistencia | Cumple | entregables/descripcion_persistencia.txt |
 | Pruebas unitarias | Cumple | entregables/informe_pruebas_unitarias.txt |
-| Pruebas de integracion | En ejecucion y documentacion | entregables/EVIDENCIA_COMPLETA_PRUEBAS.md |
-| Pruebas end-to-end | En ejecucion y documentacion | entregables/EVIDENCIA_COMPLETA_PRUEBAS.md |
+| Pruebas de integracion | Cumple | entregables/INFORME_PRUEBAS_INTEGRACION_E2E.md, entregables/EVIDENCIA_COMPLETA_PRUEBAS.md |
+| Pruebas end-to-end | Cumple | rednorte-frontend/tests/e2e/business-core.spec.js, rednorte-frontend/playwright-report/index.html, entregables/EVIDENCIA_COMPLETA_PRUEBAS.md |
 | Informe consolidado de pruebas | Cumple (en actualizacion) | entregables/EVIDENCIA_COMPLETA_PRUEBAS.md |
-| Presentacion en PPT | Pendiente de cierre final | Adjuntar archivo PPT final en entrega |
+| Presentacion en PPT | En cierre final | entregables/PRESENTACION_PARCIAL3_REDNORTE.pptx |
 | Video de arquitectura y uso | Pendiente de render final | entregables/GUION_VIDEO_15MIN.md |
 
 ---
