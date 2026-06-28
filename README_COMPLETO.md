@@ -65,3 +65,38 @@ La presentacion debe incluir:
 2. Video por grupo (arquitectura y uso de la solucion).
 3. Evidencia de pruebas realizadas, resultados y mejoras.
 
+---
+
+## 7. Git multirepo (orden recomendado)
+
+El workspace usa una estructura multirepo: el repo raiz y 5 subrepos independientes.
+
+Repositorios de codigo:
+- rednorte-eureka
+- rednorte-bff
+- rednorte-ms-pacientes
+- rednorte-ms-citas
+- rednorte-frontend
+
+Convencion de rama principal:
+- Estandar: develop
+- Excepcion actual: rednorte-eureka usa master
+
+Comandos rapidos desde la raiz:
+
+```powershell
+# Ver estado de todos los repos
+.\git-status-all.ps1
+
+# Ver estado incluyendo repo raiz
+.\git-status-all.ps1 -IncludeRoot
+
+# Hacer push seguro en todos los repos limpios (omite repos con cambios)
+.\git-push-all.ps1
+```
+
+Regla operativa:
+- Commit por repositorio, con cambios relacionados.
+- Push solo cuando el repo este limpio y compilando.
+- No mezclar cambios de documentacion raiz con cambios de codigo de subrepos en el mismo commit.
+
