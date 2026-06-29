@@ -1,0 +1,115 @@
+{
+  "info": {
+    "_postman_id": "3f4d2dbf-58ce-4f4a-9b6f-76a7c8e3b2f1",
+    "name": "RedNorte API Collection",
+    "description": "Coleccion para validar comunicacion BFF -> microservicios (pacientes y citas)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8080" },
+    { "key": "pacienteId", "value": "1" },
+    { "key": "citaId", "value": "1" }
+  ],
+  "item": [
+    {
+      "name": "Pacientes",
+      "item": [
+        {
+          "name": "GET Pacientes",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/api/pacientes", "host": ["{{baseUrl}}"], "path": ["api","pacientes"] }
+          }
+        },
+        {
+          "name": "GET Paciente by ID",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/api/pacientes/{{pacienteId}}", "host": ["{{baseUrl}}"], "path": ["api","pacientes","{{pacienteId}}"] }
+          }
+        },
+        {
+          "name": "POST Paciente",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Juan Perez\",\n  \"rut\": \"12345678-9\"\n}"
+            },
+            "url": { "raw": "{{baseUrl}}/api/pacientes", "host": ["{{baseUrl}}"], "path": ["api","pacientes"] }
+          }
+        },
+        {
+          "name": "PUT Paciente",
+          "request": {
+            "method": "PUT",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nombre\": \"Juan Perez Actualizado\",\n  \"rut\": \"12345678-9\"\n}"
+            },
+            "url": { "raw": "{{baseUrl}}/api/pacientes/{{pacienteId}}", "host": ["{{baseUrl}}"], "path": ["api","pacientes","{{pacienteId}}"] }
+          }
+        },
+        {
+          "name": "DELETE Paciente",
+          "request": {
+            "method": "DELETE",
+            "url": { "raw": "{{baseUrl}}/api/pacientes/{{pacienteId}}", "host": ["{{baseUrl}}"], "path": ["api","pacientes","{{pacienteId}}"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Citas",
+      "item": [
+        {
+          "name": "GET Citas",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/api/citas", "host": ["{{baseUrl}}"], "path": ["api","citas"] }
+          }
+        },
+        {
+          "name": "GET Cita by ID",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/api/citas/{{citaId}}", "host": ["{{baseUrl}}"], "path": ["api","citas","{{citaId}}"] }
+          }
+        },
+        {
+          "name": "POST Cita",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fecha\": \"2026-06-25\",\n  \"especialidad\": \"Cardiologia\",\n  \"idPaciente\": 1\n}"
+            },
+            "url": { "raw": "{{baseUrl}}/api/citas", "host": ["{{baseUrl}}"], "path": ["api","citas"] }
+          }
+        },
+        {
+          "name": "PUT Cita",
+          "request": {
+            "method": "PUT",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fecha\": \"2026-06-27\",\n  \"especialidad\": \"Neurologia\",\n  \"idPaciente\": 1\n}"
+            },
+            "url": { "raw": "{{baseUrl}}/api/citas/{{citaId}}", "host": ["{{baseUrl}}"], "path": ["api","citas","{{citaId}}"] }
+          }
+        },
+        {
+          "name": "DELETE Cita",
+          "request": {
+            "method": "DELETE",
+            "url": { "raw": "{{baseUrl}}/api/citas/{{citaId}}", "host": ["{{baseUrl}}"], "path": ["api","citas","{{citaId}}"] }
+          }
+        }
+      ]
+    }
+  ]
+}

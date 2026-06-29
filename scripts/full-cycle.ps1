@@ -5,7 +5,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$root = Split-Path -Parent $MyInvocation.MyCommand.Path
+$root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 
 function Test-Url {
     param([string]$Url)
@@ -52,7 +52,7 @@ function Wait-Ready {
 
 if (-not $SkipStart) {
     Write-Host 'Iniciando servicios locales...'
-    & (Join-Path $root 'start-local.ps1')
+    & (Join-Path $root 'scripts/start-local.ps1')
 }
 
 Write-Host "Esperando disponibilidad de servicios (timeout: ${TimeoutSec}s)..."
@@ -62,11 +62,11 @@ if (-not $ready) {
 }
 
 Write-Host 'Ejecutando smoke tests...'
-& (Join-Path $root 'smoke-tests.ps1')
+& (Join-Path $root 'scripts/smoke-tests.ps1')
 
 if (-not $SkipStop) {
     Write-Host 'Deteniendo servicios locales...'
-    & (Join-Path $root 'stop-local.ps1')
+    & (Join-Path $root 'scripts/stop-local.ps1')
 }
 
 Write-Host 'FULL_CYCLE_OK'
